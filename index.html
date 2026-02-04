@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carpet Cleaning Triangle | What You Should Know About Carpet Cleaning</title>
+    <meta name="description" content="Carpet cleaning in Wake County. Understanding methods, frequency, and maintaining your carpets across the Triangle.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        .header {
+            background: linear-gradient(135deg, #b91c1c 0%, #991b1b 100%);
+            color: white;
+            padding: 1rem 2rem;
+        }
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        .phone {
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+        .hero {
+            background: #991b1b;
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            opacity: 0.95;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .education-intro {
+            max-width: 900px;
+            margin: 0 auto 3rem auto;
+            text-align: center;
+        }
+        .education-intro h2 {
+            color: #b91c1c;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .education-intro p {
+            font-size: 1.1rem;
+            color: #555;
+            line-height: 1.8;
+        }
+        .education-section {
+            background: #fee2e2;
+            padding: 3rem 2rem;
+            margin: 0 -2rem 3rem -2rem;
+        }
+        .education-section h2 {
+            text-align: center;
+            color: #b91c1c;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+        .education-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .education-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            border-top: 4px solid #991b1b;
+        }
+        .education-card h3 {
+            color: #b91c1c;
+            margin-bottom: 1rem;
+        }
+        .education-card p {
+            color: #666;
+            line-height: 1.7;
+        }
+        .services-section {
+            margin: 3rem 0;
+        }
+        .services-section h2 {
+            color: #b91c1c;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+        .service-card {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 3px solid #991b1b;
+        }
+        .service-card h3 {
+            color: #b91c1c;
+            margin-bottom: 0.75rem;
+        }
+        .service-card p {
+            color: #666;
+            font-size: 0.95rem;
+        }
+        .pricing-section {
+            background: #ecfdf5;
+            border-left: 4px solid #10b981;
+            padding: 2rem;
+            border-radius: 4px;
+            margin: 3rem 0;
+        }
+        .pricing-section h3 {
+            color: #065f46;
+            margin-bottom: 1rem;
+        }
+        .pricing-section p {
+            color: #047857;
+            line-height: 1.7;
+            margin-bottom: 1rem;
+        }
+        .when-to-call {
+            margin: 3rem 0;
+        }
+        .when-to-call h2 {
+            color: #b91c1c;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+        .when-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+        .when-card {
+            background: #dbeafe;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid #3b82f6;
+        }
+        .when-card h3 {
+            color: #1e40af;
+            margin-bottom: 0.75rem;
+        }
+        .when-card p {
+            color: #1e3a8a;
+            font-size: 0.95rem;
+        }
+        .form-section {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            max-width: 700px;
+            margin: 3rem auto;
+        }
+        .form-section h2 {
+            color: #b91c1c;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+            text-align: center;
+        }
+        .form-section .subtitle {
+            color: #666;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 1.25rem;
+        }
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 0.75rem;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+            font-family: inherit;
+        }
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: #991b1b;
+        }
+        textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+        .submit-btn {
+            background: linear-gradient(135deg, #b91c1c 0%, #991b1b 100%);
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 4px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+        }
+        .submit-btn:hover {
+            opacity: 0.95;
+        }
+        .footer {
+            background: #2c3e50;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">Carpet Cleaning Triangle</div>
+            <div class="phone">📞 (919) 635-9141</div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>What You Should Know About Carpet Cleaning</h1>
+        <p>Understanding cleaning methods, timing, and maintenance helps you make better decisions for your carpets.</p>
+    </section>
+
+    <div class="container">
+        <div class="education-intro">
+            <h2>Carpet Cleaning Basics</h2>
+            <p>Professional carpet cleaning does more than remove visible dirt—it extracts deep-down grime, allergens, and contaminants that regular vacuuming can't reach. Knowing when and how to clean your carpets protects your investment and improves indoor air quality.</p>
+        </div>
+
+        <section class="education-section">
+            <h2>Important Things to Know</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <h3>🧼 Cleaning Methods</h3>
+                    <p><strong>Hot Water Extraction (Steam Cleaning):</strong> Most effective deep cleaning method. Uses hot water and cleaning solution, then extracts dirt. Takes 6-12 hours to dry. <strong>Dry Cleaning:</strong> Low-moisture method using compounds. Faster drying (2-4 hours) but less deep cleaning power.</p>
+                </div>
+
+                <div class="education-card">
+                    <h3>📅 How Often to Clean</h3>
+                    <p><strong>High-traffic areas:</strong> Every 6-12 months. <strong>Normal traffic:</strong> Every 12-18 months. <strong>Light traffic:</strong> Every 18-24 months. <strong>With pets or kids:</strong> Every 6 months. Regular cleaning extends carpet life significantly.</p>
+                </div>
+
+                <div class="education-card">
+                    <h3>⏰ Drying Time</h3>
+                    <p>Steam cleaning takes 6-12 hours to dry completely. Run fans, open windows, and avoid walking on carpets in socks. Summer cleaning dries faster than winter. Plan to stay off carpets for at least 6 hours after cleaning.</p>
+                </div>
+
+                <div class="education-card">
+                    <h3>🐾 Pet Stains & Odors</h3>
+                    <p>Pet accidents require enzyme treatments to fully remove odors. Regular cleaning alone won't eliminate the smell. Old pet stains may have soaked into padding—sometimes padding replacement is necessary for complete odor removal.</p>
+                </div>
+
+                <div class="education-card">
+                    <h3>💰 Cost Factors</h3>
+                    <p>Pricing typically per room or square foot. Average room $30-50. Whole house 1,500 sq ft: $200-400. Add-ons: Pet treatment (+$20/room), Scotchgard protection (+$15/room), stain removal (varies).</p>
+                </div>
+
+                <div class="education-card">
+                    <h3>🏠 Pre-Cleaning Prep</h3>
+                    <p>Vacuum thoroughly first—removes loose dirt so cleaner focuses on deep cleaning. Move small furniture and breakables. We move larger furniture. Clear floor of toys, clothes, and items. Makes the process faster and more effective.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="services-section">
+            <h2>Carpet Cleaning Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Steam Cleaning</h3>
+                    <p>Hot water extraction. Deep cleaning for heavily soiled carpets.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Upholstery Cleaning</h3>
+                    <p>Clean sofas, chairs, and fabric furniture.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Pet Stain Treatment</h3>
+                    <p>Enzyme treatments for pet accidents and odor removal.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Scotchgard Protection</h3>
+                    <p>Apply protective coating to resist stains and spills.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Area Rug Cleaning</h3>
+                    <p>Clean area rugs and specialty rugs.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Commercial Carpet</h3>
+                    <p>Office and commercial carpet cleaning services.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="pricing-section">
+            <h3>💰 Typical Pricing Structure</h3>
+            <p><strong>Per Room:</strong> $30-50 per room (up to 200 sq ft). Living rooms and large rooms may count as two rooms.</p>
+            <p><strong>Whole House:</strong> Package pricing often better value. 1,500 sq ft home typically $200-400 depending on carpet condition.</p>
+            <p><strong>Add-On Services:</strong> Pet treatment, Scotchgard, and heavy stain removal cost extra. Get itemized quote upfront.</p>
+        </div>
+
+        <section class="when-to-call">
+            <h2>When to Schedule Carpet Cleaning</h2>
+            <div class="when-grid">
+                <div class="when-card">
+                    <h3>Regular Maintenance</h3>
+                    <p>Annual or bi-annual cleaning keeps carpets looking good and extends life.</p>
+                </div>
+                <div class="when-card">
+                    <h3>Before Selling Home</h3>
+                    <p>Clean carpets make homes show better and help with home inspections.</p>
+                </div>
+                <div class="when-card">
+                    <h3>After Renovation</h3>
+                    <p>Remove construction dust and debris after remodeling projects.</p>
+                </div>
+                <div class="when-card">
+                    <h3>Allergy Relief</h3>
+                    <p>Deep cleaning removes allergens, dust mites, and improves air quality.</p>
+                </div>
+                <div class="when-card">
+                    <h3>Stain Issues</h3>
+                    <p>Professional treatment for stubborn stains regular cleaning can't remove.</p>
+                </div>
+                <div class="when-card">
+                    <h3>Move-In/Move-Out</h3>
+                    <p>Clean carpets when moving into new home or preparing to move out.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="form-section">
+            <h2>Request Carpet Cleaning</h2>
+            <p class="subtitle">Get a quote for professional cleaning</p>
+            
+            <form id="leadForm" action="https://hook.us2.make.com/gzcbxb8x2e5xph37kjhm48ur4khvh7ir" method="POST">
+                <input type="hidden" name="site_id" value="WAKE-CARPET-001">
+                <input type="hidden" name="market" value="Wake County">
+                <input type="hidden" name="industry" value="Carpet Cleaning">
+                <input type="hidden" name="lead_type" value="Service Request">
+                <input type="hidden" name="source_url" value="carpetcleaningtriangle.com">
+                
+                <div class="form-group">
+                    <label for="name">Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="address">Service Address *</label>
+                    <input type="text" id="address" name="address" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="property_type">Property Type *</label>
+                    <select id="property_type" name="property_type" required>
+                        <option value="">Select...</option>
+                        <option value="Residential">Residential</option>
+                        <option value="Commercial">Commercial</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="service_type">Service Needed *</label>
+                    <select id="service_type" name="service_type" required>
+                        <option value="">Select...</option>
+                        <option value="Whole House">Whole House</option>
+                        <option value="Specific Rooms">Specific Rooms</option>
+                        <option value="Pet Treatment">Pet Stain Treatment</option>
+                        <option value="Upholstery">Upholstery</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="details">Additional Details *</label>
+                    <textarea id="details" name="details" required placeholder="Tell us about your carpet cleaning needs..."></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Request Quote</button>
+            </form>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Carpet Cleaning Triangle. Professional Carpet Cleaning Services.</p>
+    </footer>
+
+    <script>
+        document.getElementById('leadForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(this);
+            
+            fetch(this.action, {
+                method: 'POST',
+                body: formData,
+                mode: 'no-cors'
+            }).then(() => {
+                window.location.href = 'thanks.html';
+            }).catch(() => {
+                window.location.href = 'thanks.html';
+            });
+        });
+    </script>
+</body>
+</html>
